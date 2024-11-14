@@ -1,16 +1,14 @@
-Clonar el proyecto
-git clone https://github.com/R-M-L-2002/EFI_2_LopezRebeca_cA.git
+Clonar y configurar el proyecto:
 
-Crear el entorno virtual
+### Clona el repositorio:
+git clone https://github.com/AlejoPinatti/efi_2_Python.git
+### Crea un entorno virtual:
 python3 -m venv env
-
-Activar el entorno virtual
+### Activa el entorno: 
 source env/bin/activate
-
-Instalar requerimientos
+### Instala las dependencias: 
 pip install -r requirements.txt
-
-Correr el proyecto
+### Correr el proyecto:
 flask run --reload
 
 -----------------------------------------------------------------------------------------------------------------------------------
@@ -32,8 +30,8 @@ Inicia sesión del usuario verificando las credenciales proporcionadas. Si las c
 **Ejemplo de cuerpo de solicitud:**
 ```html
 {
-    "username": "usuario123",
-    "password": "contraseña"
+    "username": "usuario555",
+    "password": "contraseña555"
 }
 ```
 ### Registro de usuario
@@ -64,12 +62,12 @@ Lista todos los usuarios registrados. Solo accesible para administradores.
 [
     {
         "id": 1,
-        "username": "usuario123",
+        "username": "usuario555",
         "is_admin": true
     },
     {
         "id": 2,
-        "username": "usuario456",
+        "username": "usuario444",
         "is_admin": false
     }
     // Otros usuarios
