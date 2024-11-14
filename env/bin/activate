@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/alejo/Música/efi_2_Python/env"
+VIRTUAL_ENV="/home/alejo/Vídeos/efi_2_Python/env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
